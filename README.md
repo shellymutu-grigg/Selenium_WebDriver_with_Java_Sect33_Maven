@@ -13,3 +13,9 @@ Maven commands:
 
 Run a single Test File:
 - mvn -Dtest=AppiumTest test 
+
+Profiles:
+- mvn test -PRegression
+- mvn test -PSmoke
+
+rahulonlinetutor@gmail.com
